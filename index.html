@@ -151,7 +151,7 @@
     }
 
     .no-button {
-      position: absolute;
+      position: fixed;
       top: 13px;
       right: calc(50% - 89px);
       color: #eadcff;
@@ -159,6 +159,7 @@
       background: #2b1942;
       box-shadow: 0 5px 14px #08031136;
       user-select: none;
+      z-index:100000;
     }
 
     .no-button:hover { border-color: #ad8bd3; }
@@ -252,7 +253,7 @@
       stage = 3;
       yesButton.hidden = true;
       noButton.hidden = true;
-      setMessage("باشه، هر وقت خواستی :) ", "ممنون که جواب دادی.");
+      setMessage("باشه ولی دلمو شکوندی...", "باهات قهرم.");
     }
 
     function teleportNo() {

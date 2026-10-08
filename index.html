@@ -204,7 +204,7 @@
     <div class="heart-mark" aria-hidden="true">♡</div>
     <p class="eyebrow">یه سؤال کوچولو</p>
     <h1 id="question" aria-live="polite">سلام میتونم یه سوال بپرسم؟</h1>
-    <p class="hint" id="hint">قول می‌دم جوابش خیلی کوتاهه :)</p>
+    <p class="hint" id="hint">قول می‌دم خیلی وقتتو نگیره:)</p>
 
     <div class="action-zone" id="action-zone">
       <button class="yes-button" id="yes-button" type="button">آره</button>
@@ -212,7 +212,7 @@
       <button class="heart-button" id="heart-button" type="button" aria-label="قلب" hidden>♡</button>
     </div>
 
-    <p class="footer">ساخته‌شده با یه ذره عشق 💜</p>
+    <p class="footer">ساخته‌شده با عشق 💜</p>
   </main>
 
   <script>
@@ -236,7 +236,7 @@
 
     function beginQuestion() {
       stage = 1;
-      setMessage("دوسم داری؟", "این‌بار انتخاب با توئه 😉");
+      setMessage("دوسم داری؟", "بهتره داشته باشی... 😉");
     }
 
     function sayYes() {
@@ -316,7 +316,7 @@
     heartButton.addEventListener("click", () => {
       heartButton.textContent = "♥";
       heartButton.disabled = true;
-      setMessage("منم دوست دارم:)", "همیشه دوست‌داشتنی باشی!");
+      setMessage("منم دوست دارم:)", "بوس بهت");
     });
 
     window.addEventListener("resize", () => {
